@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=PT+Sans&display=swap');
+
+:root{
+
+--titulo: 'Alkalami', serif;
+--restante:'PT Sans', sans-serif;
+
+}
+
+*{
+
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+body,html{
+
+
+    background-image: linear-gradient(to right,#F16529, #000000da);
+    font-family: var(--titulo);
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+
+
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+}
+
+#login{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+
+background-color: white;
+width: 250px;
+height: 500px;
+border-radius: 22px;
+
+}
+
+#imagem{
+
+    background: #F16529 url(../imagens/login.png);
+
+
+
+}
+
+
+
