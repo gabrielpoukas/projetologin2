@@ -98,6 +98,7 @@ form > div.campo{
 
 
 background-color: #ea29f1;
+border: 2px solid #ea29f1 ;
 width: 100%;
 display: block;
 height: 40px;
@@ -110,6 +111,36 @@ margin: 5px 0px;
 form label {
 
 display: none;
+
+}
+
+
+ div.campo >span{
+
+color: white;
+font-size: 2em;
+width: 40px;
+padding: 3px;
+
+}
+
+div.campo > input {
+
+background-color: #f0ab8e;
+font-size: 1em;
+height: 100%; 
+border: 0px;
+transform: translatey(-12px);
+border-radius: 7px;
+padding: 4px;
+width:  calc(100% - 44px);
+
+}
+
+div.campo > input:focus-within  {
+
+background-color: white;
+
 
 }
 
