@@ -9,8 +9,12 @@
 <link rel="stylesheet" href="estilos/mediaquery.css">
 <link rel="stylesheet" href="estilos/outrastelas.css">
 <link rel="shortcut icon" href="imagens/Bingxueling-Fruit-Vegetables-Pumpkin.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
+
+
+
 <body>
     
         <main>
@@ -30,16 +34,29 @@
                     <p>Seja Muito bem vindo(a) novamente!! E aproveite a melhor epoca do ano com Promoçoes</p>
                     
                     
-                    <form action="#" method="post">
+                    <form action="login.php" method="post" autocomplete="on">
 
-                            <label for="iname">Nome</label>
-                            <input type="text" name="login"  id="iname" required placeholder=" Login Valido!">
+                            <div class="campo">
 
-                            <label for="isenha">Senha</label>
-                            <input type="password" name="senha" id="isenha" required placeholder=" Senha Valida!">
+                                <span class="material-icons md-24">person</span>
 
+                                    
+                                    <input type="email" name="Login" id="ilogin" required  placeholder="Seu e-mail" autocomplete="email">
+                                    <label for="ilogin">Login:</label>
+                            </div>
 
+                                <div class="campo">
 
+                                    <span class="material-icons md-24">vpn_key</span>
+
+                                    
+                                    <input type="password" name="Senha" id="isenha" required placeholder="Sua senha" autocomplete="current-password" minlength="8"  maxlength="22" >
+                                   <label for="isenha">Senha:</label>
+
+                                </div>
+
+                                <input type="submit" value="Entrar">
+                                <a href="esqueci.html" target="_blank">Esqueci a Senha <i class="material-icons" > mail</i> </a>
                     </form>
 
 

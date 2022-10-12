@@ -46,6 +46,7 @@ width: 70%;
     body{
 
         background-image: linear-gradient(to top,#F16529, #00000086);
+        background: url(../imagens/background1.png);
         
         }
 
@@ -60,18 +61,31 @@ width: 960px;
     
 section#login > div#imagem{
 
-float: left;
+float: right;
 width: 50%;
 height: 100%;
 }
 
 section#login > div#formulario {
 
-float: right;
+float: left;
 width: 50%;
+
+}
+
+div#formulario > h1 {
+
+font-size: 2em;
 
 
 }
+
+div#formulario > p {
+
+    font-size:  1.3em;
+    
+    }
+    
 
 
 }
